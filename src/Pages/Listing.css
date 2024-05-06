@@ -1,0 +1,35 @@
+.listing-seats {
+    text-align: center;
+  }
+  
+  .seat-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .seat-row {
+    margin: 10px;
+    display: flex;
+  }
+  
+  .seat-label {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .seat-number {
+    margin-left: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  input[type="checkbox"]:disabled {
+    background-color: #f7163b; /* Set the background color for disabled checkboxes */
+  }
+  
+ 
